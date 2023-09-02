@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMDb Clone </title>
+    <link rel="stylesheet" href="resources/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav-container">
+        <div class="logo">
+            <button>IMDb</button>
+        </div>
+        <div class="menu-container">
+            <div class="hamberger-menu">
+                <button><i class="fa fa-bars">  <span>Menu</span></i></button>
+                  
+            </div>
+        </div>
+       <div class="search-container">
+        <div class="search-bar">
+            <div class="search-input">
+              <input type="text" placeholder="Search IMDb" id="movie-search-box">
+             
+              <span class="all-text">All</span>
+              <button class="search-icon"><i class="fa fa-search"></i></button>
+            </div>
+        
+          </div>
+       </div>
+
+       <!-- end of search container -->
+
+        <div class="logo-pro">
+            <button>IMDb<span>Pro</span></button>
+        </div>
+
+        <div class="Watch-list">
+            <h4>Watchlist</h4>
+        </div>
+        <div class="sign-in">
+            <h4>Sign In</h4>
+        </div>
+        <div class="language-dropdown">
+            <h4>En</h4>
+            <select name="language" id="lang-dropdown">
+                <option value="English">English (United States)</option>
+                <option value="Francias">Francias (Canada)</option>
+                <option value="Francias">Francias (France)</option>
+                <option value="Deutsch ">Deutsch (Deutschland)</option>
+                <option value="Hindi ">Hindi (India)</option>
+                <option value="Italiano ">Italiano (Italia)</option>
+                <option value="Portugues ">Portugues (Brasil)</option>
+                <option value="Espanol">Espanol (Espana)</option>
+                <option value="Espanol">Espanol (Mexico)</option>
+            </select>
+        </div>
+    </nav>   
+
+    <div class="search-list" id="search-list">
+        <!-- list-here -->
+        <div class="search-list-item">
+            <div class="search-item-thumbnail">
+                <img src="resources/image/Gaurdian_Of_Galaxy_2.jpg" alt="movie thumbnail">
+            </div>
+            <div class="search-item-info">
+                <h3>Guardians of the Galaxy Vol. 2</h3>
+                <p>2017</p>
+            </div>
+        </div>
+      </div>
+
+    <!-- result container -->
+    <div class="container">
+        <div class="result-container">
+            <div class="result-grid" id="result-grid">
+                <!-- movie information here -->
+                <div class="movie-poster">
+                    <img src="resources/image/Gaurdian_Of_Galaxy.png" alt="movie poster">
+                </div>
+                <div class="movie-info">
+                    <h3 class="movie-title">Guardians of the Galaxy Vol. 2</h3>
+                    <ul class="movie-misc-info">
+                        <li class="year">Year: 2017</li>
+                        <li class="rated">Ratings: PG-13</li>
+                        <li class="released">Realeased: 05 May 2017</li>
+                    </ul>
+                    <p class="genre"><b>Genre:</b> Action, Adventure, Comedy</p>
+                    <p class="writer"><b>Writer:</b>James Funn, Don Abnett, Andy Lanning</p>
+                    <p class="actors"><b>Actors:</b>Chirs Pratt, Zoe Saldana, Dave Bautista</p>
+                    <p class="plot"><b>Plot:</b>The Guardians struggles with their personal family issues,
+                    notably Star-Lord's encounter with his father the amitiouscelestial being Ego.</p>
+                    <p class="language"><b>Language:</b>English</p>
+                    <p class="awards"><b><i class="fas fa-award"></i></b>Nominated for 1 Oscar</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

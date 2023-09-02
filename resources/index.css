@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background: rgba(201, 201, 195, 0.938);
+}
+
+.nav-container {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    padding: 0%;
+    justify-content: left;
+    background: black;
+    height: 3.6rem;
+    width: 100rem;
+    
+}
+.logo {
+   
+    padding-left: 5%;
+    padding-right: 1%;
+}
+.logo button {
+    font-family: 'Archivo Black', sans-serif;
+    background-color: rgb(255 204 0 / 95%);
+    border: none;
+    border-radius: 4px;
+    padding: 10%;
+    font-size: 20px;
+}
+.menu-container {
+    padding: 2%;
+    
+}
+
+.hamberger-menu button {
+    font-weight: bolder;
+    width: 4em;
+    font-size: 1em;
+    height: 2.5em;
+    background-color: black;
+    color: white;
+    border: none;
+    
+}
+.hamberger-menu span {
+    font-style: normal;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    padding-left: 0.2em;
+}
+.search-container {
+    width: 40em;
+    padding-top:10% ;
+    padding-bottom: 13%;
+    display: flex;
+}
+
+.search-bar .search-input {
+    position: relative;
+    margin-top: 7%;
+    width: 40rem;
+  }
+  
+  .search-bar .search-input .all-text {
+    position: absolute;
+    left: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 10px;
+    background-color: #fff;
+    z-index: 1;
+    cursor: pointer;
+  }
+  
+  .search-bar .search-input input[type="text"] {
+    padding-left: 10%; /* Add padding to the left of the input field to accommodate the "All" text */
+    border: 2px solid rgba(255, 204, 0, 0.95);
+    border-radius: 3px;
+    width: 100%;
+    height: 2.5em;
+  }
+.search-icon {
+    position: absolute;
+    float: right;
+    width: 3em;
+    height: 2em;
+}
+
+.search-icon {
+    position: absolute;
+    left: 44.8em;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 10px;
+    background-color: #fff;
+    z-index: 1;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .logo-pro {
+    padding: 1%;
+    
+  }
+
+  .logo-pro button {
+    font-family: 'Archivo Black', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+  }
+
+  .logo-pro span {
+    color: aqua;
+    font-family: 'Archivo Black', sans-serif;
+  } 
+  .Watch-list {
+    font-family: sans-serif;
+    color: #fff;
+    padding: 1%;
+  } 
+
+  .sign-in {
+    font-family: sans-serif;
+    color: #fff;
+    padding: 1%;
+    width: 6%;
+  }
+  .language-dropdown {
+    display: flex;
+    font-family: sans-serif;
+    color: darkgray;
+    padding: 1%;
+  }
+  #lang-dropdown{
+    border: none;
+    padding-left:  3%;
+    padding-right: 2%;
+    color: darkgray;
+    width: 10%;
+    background-color: rgba(16, 15, 15, 0.908);
+    font-size: 20px;
+    
+  }
+  option {
+    background-color: rgba(16, 15, 15, 0.908);
+  }
+
+  img {
+    width: 100rem;
+    display: block;
+   /* width: 40rem; */
+    width: 100%;
+    /* margin-left: 17rem; */
+   
+  }
+
+.search-list {
+  right: 0;
+  z-index: 10;
+  max-height: 50px;
+  overflow-y: scroll;
+  
+  
+}
+
+.search-list .search-list-item {
+  /* background-color: rgb(68, 66, 66); */
+ 
+  border-bottom: 1px solid black;
+  /* width: calc(350px - 8px); */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 200ms ease;
+}
+  
